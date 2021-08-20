@@ -8,7 +8,8 @@
                 <div class="form-group">
                     <input type="password" class="form-control" id="password" name="password" placeholder="Your Password ..." require>
                 </div>
-                <input type="checkbox" onclick="myFunction()">    Show Password
+                <input type="checkbox" onclick="myFunction()">
+                <label class="text-light">Show Password</label>    
                 <div class="form-group">
                     <input type="submit" class="btn btn-primary form-control" name="btn" value="Login Now">
                 </div>

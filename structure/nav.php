@@ -11,5 +11,6 @@
       </li>
     </ul>
     <a class="nav-link" href="?page=login"><button class="btn btn-outline-dark my-2 my-sm-0" type="submit" data-toggle="tooltip" title="Admin only">Login</button></a>
+    <a href="create_html.php"><i class="fa fa-plus" aria-hidden="true"></i></a>
   </div>
 </nav>
