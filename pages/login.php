@@ -1,7 +1,6 @@
 
-<form action="">
     <div class="container mt-5">
-            <form action="create_porgram_model.php" method="POST">
+            <form action="login_to.php" method="POST">
                 <div class="form-group">
                     <input type="text" class="form-control" name="name" placeholder="Your name ..." require>
                 </div>
@@ -11,12 +10,10 @@
                 <input type="checkbox" onclick="myFunction()">
                 <label class="text-light">Show Password</label>    
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary form-control" name="btn" value="Login Now">
+                    <input type="submit" class="btn btn-primary form-control" name="btnLogin" value="Login Now">
                 </div>
             </form>
         </div>
-</form>
-
 <script>
     function myFunction() {
     var x = document.getElementById("password");

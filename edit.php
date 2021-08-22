@@ -11,6 +11,7 @@
     <div class="container p-4">
         <form action="update_model.php" method="post">
             <input type="hidden" value=<?= $row['postId']?> name="postId">
+            <input type="hidden" value=<?= $row['image']?> name="image">
             <div class="form-group">
                 <input type="text" class="form-control" value="<?= $row['title']?>" name="title">
             </div>
